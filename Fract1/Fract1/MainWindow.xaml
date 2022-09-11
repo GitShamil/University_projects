@@ -1,0 +1,62 @@
+﻿<Window x:Class="Fract1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fract1"
+        mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="800" MinHeight="500" MinWidth="550"  >
+    <Grid  x:Name="mainGrid"  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Column="1" HorizontalAlignment="Stretch" >
+            <Canvas  x:Name="image" Width="1000" Height="1000" HorizontalAlignment="Stretch" >
+            </Canvas>
+        </Viewbox>
+        <StackPanel x:Name="stackPanelMenu" Margin="5"  >
+                <ComboBox Name="comboBoxOfType" SelectionChanged="comboBoxOfType_SelectionChanged">
+                    <TextBlock Text="Дерево Пифагора"/>
+                <TextBlock Text="Кривая Коха"/>
+                <TextBlock Text="Ковер"/>
+                <TextBlock Text="Треугольники"/>
+                <TextBlock Text="Отрезки"/>
+            </ComboBox >
+            <Label x:Name="label1" Content="Глубина"/>
+            <TextBox x:Name="textbox1"  />
+            <Label x:Name="label2" Content="Глубина" Visibility="Hidden"/>
+            <TextBox x:Name="textbox2" Visibility="Hidden" />
+            <Label x:Name="label3" Content="Глубина" Visibility="Hidden"/>
+            <TextBox x:Name="textbox3" Visibility="Hidden" />
+            <Label x:Name="label4" Content="Глубина" Visibility="Hidden"/>
+            <TextBox x:Name="textbox4" Visibility="Hidden" />
+                <Label Content="Градиент из"/>
+            <ComboBox Name="comboBoxColor1">
+                <TextBlock Text="Красный"/>
+                <TextBlock Text="Синий"/>
+                <TextBlock Text="Зеленый"/>
+                <TextBlock Text="Желтый"/>
+                <TextBlock Text="Фиолетовый"/>
+                <TextBlock Text="Черный"/>
+                <TextBlock Text="Белый"/>
+            </ComboBox>
+                <Label Content="Градиент в"/>
+                <ComboBox Name="comboBoxColor2">
+                    <TextBlock Text="Красный"/>
+                <TextBlock Text="Синий"/>
+                <TextBlock Text="Зеленый"/>
+                <TextBlock Text="Желтый"/>
+                <TextBlock Text="Фиолетовый"/>
+                <TextBlock Text="Черный"/>
+                <TextBlock Text="Белый"/>
+            </ComboBox>
+            <Button Content="Запуск" Margin="0,30,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ButtonRender_Click"/>
+            <Button Content="Сохранение" Margin="0,30,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ButtonSave_Click"/>
+
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>
