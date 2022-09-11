@@ -1,0 +1,16 @@
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.exe
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.deps.json
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.runtimeconfig.json
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.runtimeconfig.dev.json
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.dll
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\ref\filemeneg.dll
+D:\прога\filemeneg\filemeneg\bin\Debug\net5.0\filemeneg.pdb
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.csproj.AssemblyReference.cache
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.GeneratedMSBuildEditorConfig.editorconfig
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.AssemblyInfoInputs.cache
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.AssemblyInfo.cs
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.csproj.CoreCompileInputs.cache
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.dll
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\ref\filemeneg.dll
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.pdb
+D:\прога\filemeneg\filemeneg\obj\Debug\net5.0\filemeneg.genruntimeconfig.cache
